@@ -38,9 +38,10 @@ How to use it
 		# Oracle Instant Client
 		LD_LIBRARY_PATH="/usr/lib/oracle/12.1/client64/lib/"
 		TNS_ADMIN="/usr/lib/oracle/12.1/client64/network/admin"
-		ORACLE_BASE="/usr/lib/oracle/12.1/client64"
+                C_INCLUDE_PATH="/usr/include/oracle/12.1/client64/"	
+	        ORACLE_BASE="/usr/lib/oracle/12.1/client64"
 		ORACLE_HOME=$ORACLE_BASE'
-	8. Save the file
+	8. Save and source the file
 	9. run pecl install oci8
 	10. Once it ask you for location of the instaclient just hit enter
 	11. add the following to /etc/php5/apache2/php.ini and /etc/php5/cli/php.ini
