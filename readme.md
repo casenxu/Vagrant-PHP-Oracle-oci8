@@ -1,3 +1,5 @@
+## This Package is looking for a new home. If you are interested please get in contact with me at jose at ditecnologia dot com to transfer the repo. 
+
 PHP development Environment With Oracle instaclient and oci8
 =============================
 
